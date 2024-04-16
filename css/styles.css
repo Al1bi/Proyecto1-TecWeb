@@ -1103,7 +1103,7 @@ em{
   font-size: 18px;
   font-weight: 400;
   font-family: 'Work Sans', sans-serif;
-  line-height: 29.7px;
+  line-height:  27.0864px;
 }
 
 .text-it{
@@ -1217,6 +1217,10 @@ em{
   color: #48a9a6;
 }
 
+.ctd{
+  color: #fcaf6c;
+}
+
 .review-head-tittle-holder{
   margin: 20px 0 0;
 }
@@ -1319,6 +1323,7 @@ em{
   font-size: 18px;
   line-height: 29.7px;
 }
+
 
 .review-stars-container{
   margin-bottom: 10px;
@@ -1909,6 +1914,116 @@ em{
   background-color: white;
   padding: 50px 0 100px;
   position: relative;
+}
+
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+
+
+/* PAGE REVIEWS */
+
+.reviews-section-banner{
+  background-image: url(../images/review-banner-03.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 200px 0 150px;
+}
+
+.reviews-section-coments{
+  background-color: white;
+  padding: 100px 0;
+  position: relative;
+}
+
+.reviews-coments-s1{
+  margin-top: 50px;
+}
+
+.review-coment-c-container{
+  padding: 0 75px 0 0;
+}
+
+.review-space-container{
+  margin: 0 0 -64px;
+}
+
+.reviews-coments-s2{
+  margin-top: 50px;
+}
+
+.reviews-coments-s3{
+  margin-top: 50px;
+}
+
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+
+
+/* PAGE CONTACT */
+
+.contact-section-banner{
+  background-image: url(../images/contact-img-01.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 200px 0 150px;
+}
+
+.contact-section-tittle{
+  background-color: white;
+  padding: 100px 0 0;
+  position: relative;
+}
+
+.contact-section-form{
+  background-color: white;
+  height: 50vh;
+  width: 100%;
+  padding: 50px 0 150px;
+  position: relative;
+}
+
+.contact-section-map{
+  background-color: white;
+  position: relative;
+}
+
+.contact-map-set{
+  overflow: hidden;
+}
+
+.contact-map-set iframe{
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1;
+  border: none;
+  height: 350px;
+}
+
+.contact-left-container{
+  align-content: flex-start;
+  align-items: flex-start;
+  padding: 0 75px 0 0;
+}
+
+.contact-left-description{
+  overflow: hidden;
 }
 
 /* MEDIA */
@@ -2578,5 +2693,80 @@ em{
 @media (max-width: 767px){
   .fc33{
     padding: 0 0 75px;
+  }
+}
+
+@media (max-width: 1024px){
+  .reviews-section-banner{
+    padding: 150px 50px 50px;
+  }
+}
+
+@media (max-width: 767px){
+  .reviews-section-banner{
+    padding: 150px 30px 30px;
+  }
+}
+
+
+@media (max-width: 1024px){
+  .reviews-section-coments{
+    padding: 80px 50px;
+  }
+}
+
+@media (max-width: 767px){
+  .reviews-section-coments{
+    padding: 50px 30px;
+  }
+}
+@media (max-width: 767px){
+  .reviews-coments-s1{
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px){
+  .reviews-coments-s2, .reviews-coments-s3{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 1024px){
+  .review-coment-c-container{
+    padding: 0 30px 0 0;
+  }
+}
+
+@media (max-width: 767px){
+  .review-coment-c-container{
+    margin: 0;
+    padding: 0 0 50px;
+  }
+}
+
+@media (max-width: 1024px){
+  .contact-section-banner{
+    padding: 150px 50px 50px;
+  }
+}
+
+@media (max-width: 767px){
+  .contact-section-banner{
+    padding: 150px 30px 30px;
+  }
+}
+
+@media (max-width: 1024px){
+  .contact-section-tittle{
+    padding: 50px;
+  }
+}
+
+@media (max-width: 767px){
+  .contact-section-tittle{
+    padding: 50px 30px 30px;
   }
 }
